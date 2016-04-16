@@ -1,9 +1,9 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{83EBD197-60CA-2049-1BBF-DD86D10449F7}") = "ColorShifter", "Assembly-CSharp-firstpass.csproj", "{69D12922-6BDC-841A-84C6-467D4E30DC4A}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorShifter.CSharp.Plugins", "ColorShifter.CSharp.Plugins.csproj", "{F03B428F-5061-ED4D-9678-9D65BB2C57FA}"
 EndProject
-Project("{83EBD197-60CA-2049-1BBF-DD86D10449F7}") = "ColorShifter", "Assembly-CSharp-Editor.csproj", "{CC76F1F7-7DF2-DBBB-BC61-0279410E7CD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorShifter.CSharp.Editor", "ColorShifter.CSharp.Editor.csproj", "{DDC2250A-DDC8-B99A-E01E-8D4F242EB055}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,36 +11,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{69D12922-6BDC-841A-84C6-467D4E30DC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69D12922-6BDC-841A-84C6-467D4E30DC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69D12922-6BDC-841A-84C6-467D4E30DC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69D12922-6BDC-841A-84C6-467D4E30DC4A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC76F1F7-7DF2-DBBB-BC61-0279410E7CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC76F1F7-7DF2-DBBB-BC61-0279410E7CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC76F1F7-7DF2-DBBB-BC61-0279410E7CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC76F1F7-7DF2-DBBB-BC61-0279410E7CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03B428F-5061-ED4D-9678-9D65BB2C57FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03B428F-5061-ED4D-9678-9D65BB2C57FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03B428F-5061-ED4D-9678-9D65BB2C57FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03B428F-5061-ED4D-9678-9D65BB2C57FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC2250A-DDC8-B99A-E01E-8D4F242EB055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC2250A-DDC8-B99A-E01E-8D4F242EB055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC2250A-DDC8-B99A-E01E-8D4F242EB055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC2250A-DDC8-B99A-E01E-8D4F242EB055}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-					GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
-		Policies = $0
-		$0.TextStylePolicy = $1
-		$1.inheritsSet = null
-		$1.scope = text/x-csharp
-		$0.CSharpFormattingPolicy = $2
-		$2.inheritsSet = Mono
-		$2.inheritsScope = text/x-csharp
-		$2.scope = text/x-csharp
-		$0.TextStylePolicy = $3
-		$3.FileWidth = 120
-		$3.TabWidth = 4
-		$3.IndentWidth = 4
-		$3.EolMarker = Unix
-		$3.inheritsSet = Mono
-		$3.inheritsScope = text/plain
-		$3.scope = text/plain
-	EndGlobalSection
-
 EndGlobal
